@@ -9,7 +9,7 @@ function App() {
     < CountContext.Provider value={countState}>
       <div>
         <Parent />
-      </div> 
+      </div>  
     </CountContext.Provider>
 
 
