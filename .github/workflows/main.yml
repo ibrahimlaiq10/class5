@@ -34,8 +34,8 @@ jobs:
     # Yarn command
           cmd: install
     - name: creating build
-       run: npm run build
+      run: yarn build
     - name: Install Surge
-       run: npm install -g surge
+      run: npm install -g surge
     - name: Run Surge
        run: surge ./build http://hooks-context2020.surge.sh/ --token ${{secrets.MY_SECRET}}
